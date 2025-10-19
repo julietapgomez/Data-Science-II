@@ -69,7 +69,8 @@ El dataset seleccionado analiza la **relación entre el uso de redes sociales, l
 | Archivo | Descripción |
 |:--------|:-------------|
 | `Primera_Entrega_DS_Julieta_Gómez.ipynb` | Notebook principal con el análisis completo |
-| *(Próximamente)* `Presentación_DSII_Julieta_Gómez.pptx` | Presentación final del proyecto (visual y narrativa) |
+
+
 
 ---
 
