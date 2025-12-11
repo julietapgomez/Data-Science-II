@@ -83,7 +83,7 @@ Curva de validación cruzada y comparación de modelos.
 
 📁 Archivos del repositorio
 Archivo	Descripción
-proyecto_final_redes_adiccion.ipynb	Notebook principal con el análisis completo
+Entrega Final_DS_Julieta_Gómez.ipynb	Notebook principal con el análisis completo
 📌 Conclusiones
 
 El análisis permite identificar patrones de uso riesgoso de redes sociales en estudiantes, y cómo estos impactan en variables como el sueño o el bienestar emocional.
