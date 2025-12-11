@@ -1,83 +1,93 @@
-# 📊 Proyecto Final – Data Science II  
-**Autora:** Julieta Gómez  
-**Curso:** Coderhouse – Data Science II  
-**Entrega:** Primera Entrega (Unidades 1 a 9)  
-**Año:** 2025  
+📊 Proyecto Final – Data Science II
 
----
+Autora: Julieta Gómez
+Curso: Coderhouse – Data Science II
+Entrega final: diciembre 2025
 
-## 🎯 Descripción general
-Este proyecto forma parte del curso **Data Science II** y tiene como objetivo aplicar las principales etapas del proceso de análisis de datos:  
-- SQL Avanzado  
-- APIs y Data Wrangling  
-- Optimización de datos limpios  
-- Análisis exploratorio (EDA)  
-- Visualización y Storytelling  
-- Análisis uni, bi y multivariado  
+🧠 Descripción general
 
-El dataset seleccionado analiza la **relación entre el uso de redes sociales, las horas de sueño y el bienestar emocional en estudiantes**.
+Este proyecto explora el fenómeno de la adicción a redes sociales en estudiantes a través de técnicas de ciencia de datos.
+A lo largo del análisis se aplicaron múltiples enfoques para comprender los factores que contribuyen al uso excesivo de redes y sus posibles consecuencias emocionales y conductuales.
 
----
+El análisis integró contenidos de las siguientes unidades:
 
-## 🧠 Objetivos del proyecto
-1. Analizar patrones de comportamiento digital entre estudiantes.  
-2. Explorar la relación entre el tiempo de uso de redes y el descanso nocturno.  
-3. Evaluar posibles efectos sobre la salud mental y el rendimiento académico.  
-4. Aplicar técnicas de limpieza, análisis estadístico y visualización de datos.  
-5. Desarrollar una interpretación narrativa de los resultados.  
+SQL Avanzado
 
----
+APIs y Web Scraping
 
-## 🧰 Tecnologías y librerías utilizadas
-- **Python**  
-- **Pandas / NumPy / Matplotlib / Seaborn**  
-- **SQLite3 / SQL / APIs REST**  
-- **GeoPandas / Plotly**  
-- **Statsmodels / SciPy / scikit-learn**
+Limpieza y optimización de datos
 
----
+Visualización (EDA y Storytelling)
 
-## 📈 Estructura del análisis
-| Unidad | Contenido principal |
-|:-------|:---------------------|
-| **1–3** | SQL avanzado, adquisición y manipulación de datos |
-| **4–5** | APIs y optimización de datos limpios |
-| **6** | EDA y visualización |
-| **7** | Storytelling y visualización GIS |
-| **8** | Análisis univariado y bivariado |
-| **9** | Análisis multivariado (regresión, ANOVA, PCA) |
+Clustering y reducción de dimensionalidad
 
----
+Modelos supervisados (clasificación y evaluación)
 
-## 📋 Resultados principales
-- Los estudiantes con **mayor uso diario de redes sociales** tienden a dormir menos y reportar **menor bienestar emocional**.  
-- El análisis de correlación muestra una **relación negativa moderada** entre horas de uso y horas de sueño.  
-- En el análisis multivariado, el **modelo de regresión múltiple** confirma que el uso excesivo y la adicción predicen disminución en la salud mental.  
-- El **PCA** muestra que las variables de uso, adicción y sueño explican gran parte de la varianza total del conjunto.
+Comparación de modelos y métricas de performance
 
----
+🎯 Objetivos del proyecto
 
-## 🌍 Visualizaciones destacadas
-- Gráfico de dispersión: Uso diario vs. Horas de sueño.  
-- Mapa GIS: Uso promedio por país.  
-- Gráficos de torta: distribución de género y plataformas más utilizadas.  
-- Dashboard final con KPIs, correlaciones y comparativos de género.  
+Analizar si los estudiantes con mayor uso de redes sociales duermen menos y presentan mayores indicadores de malestar emocional.
 
----
+Evaluar patrones de comportamiento por género.
 
-## 🧩 Archivos del repositorio
-| Archivo | Descripción |
-|:--------|:-------------|
-| `Primera_Entrega_DS_Julieta_Gómez.ipynb` | Notebook principal con el análisis completo |
+Identificar perfiles de uso mediante clustering no supervisado (K-Means).
 
+Predecir el riesgo de adicción utilizando modelos supervisados (Random Forest, Regresión Logística, Árbol de Decisión).
 
+Comparar la performance de los modelos y seleccionar el más robusto.
 
----
+🧰 Tecnologías y librerías utilizadas
 
-## 💬 Conclusiones
-> El proyecto evidencia la importancia de abordar el uso de redes sociales como un fenómeno social con impacto directo en el descanso y la salud emocional.  
-> La combinación de análisis descriptivo, inferencial y visual permitió construir una mirada integral basada en datos.  
+Python
 
----
+Pandas / Numpy / Matplotlib / Seaborn
+
+Scikit-learn (sklearn)
+
+Statsmodels (ANOVA)
+
+Plotly
+
+Yellowbrick
+
+Google Colab
+
+🧱 Estructura del análisis
+Unidad	Contenido principal
+1–3	SQL avanzado, adquisición y limpieza de datos
+4–5	EDA y visualización (plotly, seaborn)
+6–7	Storytelling y visualización GIS
+8–9	Clustering (KMeans) y reducción dimensional (PCA)
+10–11	Modelos supervisados (Random Forest, Árbol, Logística)
+12–13	Validación cruzada y comparación de modelos
+📌 Resultados principales
+
+Los estudiantes que usan redes sociales más de 4 horas diarias tienden a dormir menos y presentan mayores niveles de estrés y malestar emocional.
+
+El género femenino muestra una mayor tendencia al uso intensivo.
+
+El modelo de Árbol de Decisión alcanzó la mayor exactitud (93.4%) en una corrida, aunque se recomienda Random Forest por mayor estabilidad.
+
+PCA + Clustering KMeans permitió identificar dos perfiles claros de usuarios según hábitos digitales y emociones.
+
+📊 Visualizaciones destacadas
+
+Gráficos de torta por género y uso de redes.
+
+Gráficos de dispersión con color por género.
+
+Matriz de correlación y gráficas multivariadas.
+
+Curva de validación cruzada y comparación de modelos.
+
+📁 Archivos del repositorio
+Archivo	Descripción
+proyecto_final_redes_adiccion.ipynb	Notebook principal con el análisis completo
+📌 Conclusiones
+
+El análisis permite identificar patrones de uso riesgoso de redes sociales en estudiantes, y cómo estos impactan en variables como el sueño o el bienestar emocional.
+
+El uso combinado de EDA, clustering y modelos supervisados permitió construir una mirada integral basada en datos reales.
 
 **Repositorio:** [https://github.com/julietapgomez/Data-Science-II](https://github.com/julietapgomez/Data-Science-II)
