@@ -92,8 +92,3 @@ El trabajo combinó análisis exploratorio, clustering y modelos de Machine Lear
 
 ---
 
-## 🚀 Posibles mejoras futuras
-
-- Incorporar nuevas variables (rendimiento académico, relaciones interpersonales)
-- Aplicar técnicas de optimización de hiperparámetros (GridSearchCV)
-- Implementar interpretabilidad con SHAP para análisis por variable
