@@ -1,93 +1,99 @@
-📊 Proyecto Final – Data Science II
+# 📊 Proyecto Final – Data Science II
 
-Autora: Julieta Gómez
-Curso: Coderhouse – Data Science II
-Entrega final: diciembre 2025
+**Autora:** Julieta Gómez  
+**Curso:** Coderhouse – Data Science II  
+**Entrega final:** Diciembre 2025  
 
-🧠 Descripción general
+---
 
-Este proyecto explora el fenómeno de la adicción a redes sociales en estudiantes a través de técnicas de ciencia de datos.
-A lo largo del análisis se aplicaron múltiples enfoques para comprender los factores que contribuyen al uso excesivo de redes y sus posibles consecuencias emocionales y conductuales.
+## 🧠 Descripción general
 
-El análisis integró contenidos de las siguientes unidades:
+Este proyecto analiza los factores asociados a la adicción a redes sociales en estudiantes, combinando herramientas de exploración de datos, visualización, agrupamiento no supervisado y modelos de clasificación.
 
-SQL Avanzado
+Se parte de un conjunto de datos con variables sobre el uso diario de redes, percepción de adicción, salud mental, sueño, edad y género, entre otras.  
+El objetivo es descubrir patrones de comportamiento, identificar perfiles y predecir la probabilidad de adicción a partir de variables cuantificables.
 
-APIs y Web Scraping
+---
 
-Limpieza y optimización de datos
+## 🎯 Objetivos del análisis
 
-Visualización (EDA y Storytelling)
+- Analizar si el uso excesivo de redes sociales se relaciona con problemas de sueño y salud mental.
+- Comparar comportamientos según género y percepción de adicción.
+- Identificar grupos de estudiantes con patrones de uso similares.
+- Entrenar modelos predictivos que permitan anticipar el riesgo de adicción.
+- Evaluar y comparar modelos según métricas de clasificación.
 
-Clustering y reducción de dimensionalidad
+---
 
-Modelos supervisados (clasificación y evaluación)
+## 🛠️ Herramientas y tecnologías
 
-Comparación de modelos y métricas de performance
+- **Python**
+- Pandas / Numpy / Seaborn / Matplotlib / Plotly
+- Scikit-learn (sklearn)
+- Yellowbrick
+- Statsmodels (ANOVA)
+- Google Colab
 
-🎯 Objetivos del proyecto
+---
 
-Analizar si los estudiantes con mayor uso de redes sociales duermen menos y presentan mayores indicadores de malestar emocional.
+## 🧱 Etapas del proyecto
 
-Evaluar patrones de comportamiento por género.
+1. **Planteo del problema y formulación de hipótesis**
+2. **Análisis exploratorio de datos (EDA)**  
+   - Distribuciones por variable  
+   - Correlaciones  
+   - Gráficos univariados, bivariados y multivariados
+3. **Agrupamiento (K-Means) y reducción de dimensionalidad (PCA)**
+4. **Modelado supervisado**  
+   - Random Forest  
+   - Árbol de Decisión  
+   - Regresión Logística
+5. **Evaluación de modelos y validación cruzada**
+6. **Comparación y selección del modelo más robusto**
+7. **Conclusiones y reflexiones finales**
 
-Identificar perfiles de uso mediante clustering no supervisado (K-Means).
+---
 
-Predecir el riesgo de adicción utilizando modelos supervisados (Random Forest, Regresión Logística, Árbol de Decisión).
+## 📌 Resultados principales
 
-Comparar la performance de los modelos y seleccionar el más robusto.
+- Se confirmó que los estudiantes que usan redes sociales más de 4 horas por día duermen menos y presentan más señales de malestar emocional.
+- El género femenino tuvo mayor proporción de casos con adicción autodeclarada.
+- El clustering identificó tres perfiles estudiantiles: saludable, intermedio y de riesgo.
+- El modelo de **Árbol de Decisión** alcanzó un accuracy del **93.4%**, y el **Random Forest** del **92.5%**, mostrando gran capacidad para anticipar casos de adicción.
+- La validación cruzada mostró resultados estables (accuracy medio ≈ 91%).
 
-🧰 Tecnologías y librerías utilizadas
+---
 
-Python
+## 📊 Visualizaciones destacadas
 
-Pandas / Numpy / Matplotlib / Seaborn
+- Gráficos de torta por género y uso de redes
+- Gráficos de dispersión por horas de uso vs. sueño (coloreado por género)
+- Mapa de calor de correlaciones
+- Visualización de clústers mediante PCA
+- Matriz de confusión del modelo Random Forest
+- Gráfico de barras comparando accuracy de modelos
 
-Scikit-learn (sklearn)
+---
 
-Statsmodels (ANOVA)
+## 📁 Archivos del repositorio
 
-Plotly
+| Archivo | Descripción |
+|--------|-------------|
+| `Entrega Final_DS_Julieta_Gómez.ipynb` | Notebook con todo el análisis realizado |
+| `Entrega Final - Data Science II.pptx` | Presentación visual del proyecto |
+| `Students Social Media Addiction.csv` | Dataset original analizado |
 
-Yellowbrick
+---
 
-Google Colab
+## 🧩 Conclusiones
 
-🧱 Estructura del análisis
-Unidad	Contenido principal
-1–3	SQL avanzado, adquisición y limpieza de datos
-4–5	EDA y visualización (plotly, seaborn)
-6–7	Storytelling y visualización GIS
-8–9	Clustering (KMeans) y reducción dimensional (PCA)
-10–11	Modelos supervisados (Random Forest, Árbol, Logística)
-12–13	Validación cruzada y comparación de modelos
-📌 Resultados principales
+Este proyecto permitió detectar patrones de riesgo asociados al uso excesivo de redes sociales entre estudiantes.  
+El trabajo combinó análisis exploratorio, clustering y modelos de Machine Learning, demostrando cómo la ciencia de datos puede ser una herramienta útil para la **detección temprana de conductas de riesgo** en contextos educativos.
 
-Los estudiantes que usan redes sociales más de 4 horas diarias tienden a dormir menos y presentan mayores niveles de estrés y malestar emocional.
+---
 
-El género femenino muestra una mayor tendencia al uso intensivo.
+## 🚀 Posibles mejoras futuras
 
-El modelo de Árbol de Decisión alcanzó la mayor exactitud (93.4%) en una corrida, aunque se recomienda Random Forest por mayor estabilidad.
-
-PCA + Clustering KMeans permitió identificar dos perfiles claros de usuarios según hábitos digitales y emociones.
-
-📊 Visualizaciones destacadas
-
-Gráficos de torta por género y uso de redes.
-
-Gráficos de dispersión con color por género.
-
-Matriz de correlación y gráficas multivariadas.
-
-Curva de validación cruzada y comparación de modelos.
-
-📁 Archivos del repositorio
-Archivo	Descripción
-Entrega Final_DS_Julieta_Gómez.ipynb	Notebook principal con el análisis completo
-📌 Conclusiones
-
-El análisis permite identificar patrones de uso riesgoso de redes sociales en estudiantes, y cómo estos impactan en variables como el sueño o el bienestar emocional.
-
-El uso combinado de EDA, clustering y modelos supervisados permitió construir una mirada integral basada en datos reales.
-
-**Repositorio:** [https://github.com/julietapgomez/Data-Science-II](https://github.com/julietapgomez/Data-Science-II)
+- Incorporar nuevas variables (rendimiento académico, relaciones interpersonales)
+- Aplicar técnicas de optimización de hiperparámetros (GridSearchCV)
+- Implementar interpretabilidad con SHAP para análisis por variable
